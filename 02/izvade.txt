@@ -1,0 +1,14 @@
+
+ProcessName       Id Atmina (MB)
+-----------       -- -----------
+aswEngSrv       5756       297,7
+Spotify        27976       306,8
+chrome         14220       306,8
+chrome         23900       364,3
+chrome          8664       388,4
+explorer       17300       401,2
+chrome         13180       401,4
+steamwebhelper 11116       450,5
+Discord        27864       520,2
+Spotify        22940       536,4
+
