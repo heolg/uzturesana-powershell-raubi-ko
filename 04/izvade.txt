@@ -1,0 +1,9 @@
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  edgeupdate         Microsoft Edge Update Service (edge...
+Stopped  GBTECService       GBTECService
+Stopped  GoogleUpdaterIn... Google Updater Internal Service (Go...
+Stopped  GoogleUpdaterSe... Google Updater Service (GoogleUpdat...
+Running  MapsBroker         Диспетчер скачанных карт
+Running  sppsvc             Защита программного обеспечения
+
