@@ -13,3 +13,7 @@ Biežākie secinājumi atkarībā no rezultāta:
 2. **Ja kļūdu skaits ir ļoti liels (vairāki simti):** Tas var norādīt, ka kāda konkrēta programma, draiveris vai fona pakalpojums ir iesprūdis "ciklam līdzīgā" stāvoklī (loop) un nepārtraukti mēģina restartēties vai piekļūt resursam, kas nav pieejams.
 
 Visbiežākais fiksētais avots parāda, kura sistēmas komponente šajās dienās ir bijusi visaktīvākā problēmu ziņojumu ģenerēšanā. Tas palīdz uzreiz saprast, kurā virzienā skatīties, ja datoram parādītos reālas darbības problēmas.
+
+# Skaidrojums 6 uzdevuma 
+
+Sarakstā izvēlētais draiveris NVIDIA GeForce RTX 5060 Ti pieder NVIDIA videokartei. Tā ir grafiskā karte, kas apstrādā attēlus, video un grafiku datorspēlēm un citām programmām.
