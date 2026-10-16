@@ -1,16 +1,9 @@
-# Iegūst informāciju par datoru un sistēmu
-$datoraNosaukums = $env:COMPUTERNAME
-$operetajsistema = Get-CimInstance Win32_OperatingSystem
-$psVersija = $PSVersionTable.PSVersion
-$datumsLaiks = Get-Date
-$procesuSkaits = (Get-Process).Count
-
-# Izvada visu informāciju vienā blokā
-Write-Output "===== Datora informācija ====="
-Write-Output "Datora nosaukums: $datoraNosaukums"
-Write-Output "Operētājsistēmas nosaukums: $($operetajsistema.Caption)"
-Write-Output "Operētājsistēmas būvējuma numurs: $($operetajsistema.BuildNumber)"
-Write-Output "PowerShell versija: $psVersija"
-Write-Output "Pašreizējais datums un laiks: $datumsLaiks"
-Write-Output "Darbojošos procesu skaits: $procesuSkaits"
-Write-Output "=============================="
+===== Datora informācija =====
+Datora nosaukums: DESKTOP-L7DQQ70
+Operētājsistēmas nosaukums: Microsoft Windows 11 Pro
+Operētājsistēmas būvējuma numurs: 26300
+PowerShell versija: 5.1.26100.9711
+Pašreizējais datums un laiks: 10/16/2026 19:02:51
+Darbojošos procesu skaits: 298
+==============================
+PS C:\Users\Artjoms\Downloads>
