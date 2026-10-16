@@ -1,0 +1,15 @@
+# 1. Atrod servisus, kas ir 'Automatic', bet ir apstādināti ('Stopped')
+$servisi = Get-Service | Where-Object { $_.StartType -eq "Automatic" -and $_.Status -eq "Stopped" }
+
+# 2. Pārbauda, vai šādi servisi eksistē
+if ($servisi.Count -gt 0) {
+    # Palaiž servisus pa īstam un saglabā izvadi izvade.txt
+    Start-Service -InputObject $servisi > izvade.txt
+} 
+else {
+    # Ja servisu nav, ieraksta paziņojumu ar skaitli nulle abos failos
+    "Atrasto servisu skaits ir 0." > izvade.txt
+    
+    # Izvada paziņojumu arī konsolē pārbaudei
+    "Atrasto servisu skaits ir 0."
+}
