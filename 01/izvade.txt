@@ -1,0 +1,16 @@
+# Iegūst informāciju par datoru un sistēmu
+$datoraNosaukums = $env:COMPUTERNAME
+$operetajsistema = Get-CimInstance Win32_OperatingSystem
+$psVersija = $PSVersionTable.PSVersion
+$datumsLaiks = Get-Date
+$procesuSkaits = (Get-Process).Count
+
+# Izvada visu informāciju vienā blokā
+Write-Output "===== Datora informācija ====="
+Write-Output "Datora nosaukums: $datoraNosaukums"
+Write-Output "Operētājsistēmas nosaukums: $($operetajsistema.Caption)"
+Write-Output "Operētājsistēmas būvējuma numurs: $($operetajsistema.BuildNumber)"
+Write-Output "PowerShell versija: $psVersija"
+Write-Output "Pašreizējais datums un laiks: $datumsLaiks"
+Write-Output "Darbojošos procesu skaits: $procesuSkaits"
+Write-Output "=============================="
