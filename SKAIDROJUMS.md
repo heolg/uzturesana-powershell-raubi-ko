@@ -17,3 +17,7 @@ Visbiežākais fiksētais avots parāda, kura sistēmas komponente šajās dien�
 # Skaidrojums 6 uzdevuma 
 
 Sarakstā izvēlētais draiveris NVIDIA GeForce RTX 5060 Ti pieder NVIDIA videokartei. Tā ir grafiskā karte, kas apstrādā attēlus, video un grafiku datorspēlēm un citām programmām.
+
+# !!!Skaidrojums 9 uzdevuma!!!
+
+Mēģināju noteikt, kurš lietotājs palaidis katru aktīvo procesu. Ar nodarbībās apgūtajām komandām neizdevās iegūt informāciju par visiem procesiem. Lai to izdarītu, nepieciešama komanda, kas ļauj nolasīt procesa īpašnieku, piemēram, GetOwner, vai Get-Process -IncludeUserName. Dažiem procesiem var būt nepieciešamas papildu piekļuves tiesības. Failā izvade.txt saglabāju programmas faktisko izvadi.
