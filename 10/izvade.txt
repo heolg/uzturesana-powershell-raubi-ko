@@ -1,0 +1,7 @@
+Procesu skaits: 283
+Aktivo servisu skaits: 134
+Aptureto servisu skaits: 179
+Kludu skaits pedejas 48 stundas: 6
+Briva vieta diskos:
+C:: 89.29 GB
+Skaitli var atskirties, jo procesi, servisi, zurnala ieraksti un diska briva vieta laika gaita mainas.
