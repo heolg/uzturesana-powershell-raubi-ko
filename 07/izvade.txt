@@ -1,0 +1,3 @@
+Disks: C:
+Kopejais izmers: 930.39 GB
+Briva vieta: 89.64 GB
