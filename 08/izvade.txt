@@ -1,0 +1,8 @@
+1. veids: Spooler, Running
+Laiks: 22.712 ms
+
+2. veids: Spooler, Running
+Laiks: 385.328 ms
+
+Atrāks bija 1. veids.
+Laika starpības nozīme ir neliela, ja abi veidi darbojas ļoti ātri.
